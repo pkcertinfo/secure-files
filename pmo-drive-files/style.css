@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* Header */
+.top-bar {
+    background: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.search {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.new-btn {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar .active {
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.storage-text {
+    margin-top: 30px;
+    font-size: 12px;
+    color: gray;
+}
+
+.upgrade-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1a73e8;
+    color: #1a73e8;
+    border-radius: 5px;
+    background: white;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.files {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+}
+
+.files th, .files td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.files tr:hover {
+    background-color: #f0f8ff;
+}
+
